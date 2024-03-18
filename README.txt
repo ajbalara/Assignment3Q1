@@ -12,3 +12,4 @@ The application code can be run through running the Querier.java file in the src
 To demonstrate the functionality of the program, the code runs addStudent(), updateStudentEmail(), deleteStudent() functions with getAllStudents() before and after each call to display the state of the DB.
 
 Below is a link to a video demonstrating the functionality of the code:
+https://youtu.be/Ynsm58rv87A
