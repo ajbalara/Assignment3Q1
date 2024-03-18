@@ -59,7 +59,7 @@ public class Querier {
         pstmt.setString(1, newEmail);
         pstmt.setInt(2, studentId);
         pstmt.executeUpdate();
-        System.out.printf("Updated email for student %d\n\n", studentId);
+        System.out.printf("Updated email for student %d to %s\n\n", studentId, newEmail);
     }
     public void deleteStudent(int studentId) throws SQLException{
         System.out.println("deleteStudent():");
